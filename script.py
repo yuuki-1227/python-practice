@@ -7,6 +7,15 @@
 # print(1*2)
 
 # 変数
-test = 'Hello World!'
+test = 'l_size'
+tall = 5
+weight = 5.5
 
-print(test)
+# print(login_id + test)
+
+# 条件分岐と関係演算子
+
+if tall > 3:
+    print('ooii')
+else:
+  print('sukunai')
