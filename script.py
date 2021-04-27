@@ -49,6 +49,7 @@
 #     print(file.read())
 
 # class
+import numpy
 import math
 
 
@@ -73,11 +74,15 @@ import math
 
 # import
 # 標準ライブラリ math　　math.pi 円周率
-import math
-print(math.pi)
+# import math
+# print(math.pi)
 
 # 外部ライブラリ（モジュール）
 # NumPy ナムパイ
 # Pandas
 # Flask
 # Django
+
+
+numpy_list = [3, 2, 6, 7]
+print(numpy.sum(numpy_list))
