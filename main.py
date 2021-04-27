@@ -18,9 +18,14 @@ st.write(
 こんな感じでマジックコマンドを使用できる。Markdown対応。
 
 """
-
-chart_df = pd.DataFrame(
-    np.random.randn(20, 3),
-    columns=['a', 'b', 'c']
-)
-st.line_chart(chart_df)
+# if文　checkboxにおけるtrue.falseで判定
+# ネストに注意
+if st.checkbox('Show DataFrame'):
+    # チャート作成
+    # np.random.randn 乱数作成、正規分布(平均0,標準偏差1)
+    chart_df = pd.DataFrame(
+        np.random.randn(20, 3),
+        columns=['a', 'b', 'c']
+    )
+    # チャートを表示
+    st.line_chart(chart_df)
