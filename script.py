@@ -21,24 +21,29 @@
 #   print('sukunai')
 
 # 関数 引数arg
-def test_python(arg):
-    test_status = arg
+# def test_python(arg):
+#     test_status = arg
 
-    if(test_status < 10):
-        return 'sukunai'
-    else:
-        return 'ooi'
+# if(test_status < 10):
+# return 'sukunai'
+# else:
+# return 'ooi'
 
 
 # print(test_python(9))
 
 # list
-test_list = ['test_samll', 'test_medium', 'test_large']
+# test_list = ['test_samll', 'test_medium', 'test_large']
 # print(test_list[1])
 
 # for
-for index in range(11):
-    print(test_python(index))
+# for index in range(11):
+# print(test_python(index))
 
-for item in test_list:
-    print(item)
+# for item in test_list:
+# print(item)
+
+# with 開始から終わりまでを自動で行ってくれる
+# open()
+with open('./test.txt', 'r') as file:
+    print(file.read())
