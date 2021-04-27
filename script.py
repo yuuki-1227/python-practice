@@ -49,21 +49,35 @@
 #     print(file.read())
 
 # class
-class Card:
-    def __init__(self, date, user_name):
-        self.date = date
-        self.user_name = user_name
-
-    def message(self):
-        return 'この投稿は' + self.user_name + 'さんが' + self.date + 'に投稿しました'
+import math
 
 
-date_a = '2021-01-01'
-user_name_a = 'Taro'
-card_a = Card(date_a, user_name_a)
+# class Card:
+#     def __init__(self, date, user_name):
+#         self.date = date
+#         self.user_name = user_name
 
-date_b = '2021-01-02'
-user_name_b = 'kayoko'
-card_b = Card(date_b, user_name_b)
+#     def message(self):
+#         return 'この投稿は' + self.user_name + 'さんが' + self.date + 'に投稿しました'
 
-print(card_b.message())
+
+# date_a = '2021-01-01'
+# user_name_a = 'Taro'
+# card_a = Card(date_a, user_name_a)
+
+# date_b = '2021-01-02'
+# user_name_b = 'kayoko'
+# card_b = Card(date_b, user_name_b)
+
+# print(card_b.message())
+
+# import
+# 標準ライブラリ math　　math.pi 円周率
+import math
+print(math.pi)
+
+# 外部ライブラリ（モジュール）
+# NumPy ナムパイ
+# Pandas
+# Flask
+# Django
