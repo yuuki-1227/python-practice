@@ -30,4 +30,15 @@ def test_python(arg):
         return 'ooi'
 
 
-print(test_python(9))
+# print(test_python(9))
+
+# list
+test_list = ['test_samll', 'test_medium', 'test_large']
+# print(test_list[1])
+
+# for
+for index in range(11):
+    print(test_python(index))
+
+for item in test_list:
+    print(item)
