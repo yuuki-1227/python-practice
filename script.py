@@ -1,17 +1,12 @@
-print('Hello, world!')
-print(1 + 2)
+# print('Hello, world!')
+# print(1 + 2)
 
-import openpyxl
-  wb = openpyxl.load_workbook("Book1.xlsx")
+# # 演算
+# print(1 + 1)
+# print(1-1)
+# print(1*2)
 
-from pathlib import Path
-import openpyxl
-p = Path("./Book1.xlsx")
-if p.exists():
-  wb = openpyxl.load_workbook(p)
+# 変数
+test = 'Hello World!'
 
-import openpyxl
-  wb = openpyxl.load_workbook("Book1.xlsm", keep_vba=True)
-
-import openpyxl
-wb = openpyxl.Workbook()
+print(test)
