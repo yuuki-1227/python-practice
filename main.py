@@ -7,9 +7,10 @@ st.title('顔認識アプリ')
 uploaded_file = st.file_uploader("Choose an image...", type='jpg')
 # if 変数 is not None: 変数の中に値が入っていたら、、、
 if uploaded_file is not None:
+
     img = Image.open(uploaded_file)
     st.image(img, caption='Uploaded Image.', use_column_width=True)
- 
+
 
 # st.write('データフレーム')
 # # pd.DataFrame() Pandasのデータフレーム型を書くことができる
